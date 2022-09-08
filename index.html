@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li><img id="logo" src="img/rainha.png" alt="Imagem logo"></li>
+                <li><p id="título"> Decodificador</p></li>
+            </ul>
+        </nav>
+    </header>
+            <!----------------ínicio do conteúdo------------------->
+    <main class="main">
+        <section class="input-area">
+            <div class="input-box">
+                <textarea class="entrada_texto" id="entrada" placeholder="Digite aqui para codificar, por favor use apenas letras maiúsculas e minúsculas" cols="18" rows="8"></textarea>
+                <div class="botoes-acao">
+                    <button type="button" class="Esconder"
+                        onclick="btnEncriptar()">Esconder</button>
+                    <button type="button" class="Revelar"
+                        onclick="btnDesencriptar()">Revelar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="saida">
+
+            <div class="caixa_saida">
+                <textarea id="saida" class="saida_texto" cols="10" rows="5" readonly></textarea>
+            </div>
+            <div>
+                <button id="copiar" type="button" onclick="copiarTexto()">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p class="p-footer">Decodificador by Elly</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

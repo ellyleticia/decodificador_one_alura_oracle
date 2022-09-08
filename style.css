@@ -1,0 +1,215 @@
+header{ background-color: rgb(142, 142, 201);}
+
+.nav-ul{
+    display: flex;
+    padding-bottom: 1px;
+}
+
+#logo {
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 60px;
+    background-color: rgb(142, 142, 201);
+    display: inline-block;
+}
+
+#título{
+    text-align: center;
+    color: white;
+    font-family: inherit;
+    margin: 10px auto 0 auto;
+    margin-left: 400px;
+    font-size: 60px;
+    display: inline-block;
+}
+/*---------------------------------- Geral -------------------------------------------------------*/
+* {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(142, 142, 201);
+}
+
+main {
+    display: flex;
+    background: rgb(142, 142, 201);
+    height: 80%;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/*---------------------------------- Entrada de texto --------------------------------------------*/
+.informacao {
+    margin-left: 200px;
+    color: lightgray;
+}
+
+.entrada_texto {
+    margin-top: 60px;
+    margin-left: 300px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 125%;
+    color: grey;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+    outline-style: none;
+}
+
+.entrada_texto::placeholder {
+    color: gray;
+}
+
+/*---------------------------------- Botões da entrada de texto ----------------------------------*/
+.botoes-acao {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-bottom: 7%;
+}
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.Esconder {
+    background-color: #922eeb;
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 13px;
+    text-decoration: none;
+    border: none;
+    margin-left: 355px;
+}
+
+.Esconder:hover {
+    transform: scale(0.98);
+}
+
+.Esconder:active {
+    position: relative;
+    top: 1px;
+}
+
+.Revelar {
+    background-color: #922eeb;
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 13px;
+    text-decoration: none;
+    border: none;
+    margin-left: 30px;
+}
+
+.Revelar:hover {
+    transform: scale(0.98);
+}
+
+.Revelar:active {
+    position: relative;
+    top: 1px;
+}
+
+/*---------------------------------- Caixa de saída de texto -------------------------------------*/
+.saida {
+    align-items: center;
+    text-align: center;
+}
+
+.caixa_saida {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 125%;
+    color: white;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+    outline-style: none;
+}
+
+.saida_texto {
+    align-items: center;
+    width: 380px;
+    height: 500px;
+    border-radius: 0px;
+    border: none;
+    resize: none;
+    outline-style: none;
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+    background-position-y: center;
+    margin: 40px 10px 0 25px;
+}
+
+
+/*---------------------------------- Botão de Copiar ---------------------------------------------*/
+
+
+#copiar {
+    background-color: #922eeb;
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 13px;
+    text-decoration: none;
+    border: none;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#copiar:hover {
+    transform: scale(0.97);
+}
+
+#copiar:active {
+    background: linear-gradient(to bottom, #8E2DE2 5%, #4A00E0 100%);
+    color: white;
+}
+
+
+/*---------------------------------- Rodapé ------------------------------------------------------*/
+footer {
+    text-align:center;
+    background-color: rgb(142, 142, 201);
+    bottom: 0;
+    margin: 0;
+    padding-bottom: 1px;}
+
+.p-footer{
+    color: white;
+    font-family: inherit;
+    margin-bottom: 100px;
+}
+
